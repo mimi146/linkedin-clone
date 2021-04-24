@@ -1,0 +1,39 @@
+.Header{
+    position:sticky;
+    z-index: 999;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid lightgray;
+   justify-content: space-evenly;
+   width:100%;
+   
+}
+
+.Header_left {
+    display: flex;
+}
+
+.Header_left>img {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.Header_search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 22px;
+    color: grey;
+    background: #eef3f8;
+}
+
+.Header_search>input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.Header_right{display:flex; }
